@@ -1,0 +1,7 @@
+1. Login to Dropbox and create a developer app using the legacy API
+2. Get an access token
+3. Insert that token into the dbxApp.py file
+4. Run dbxApp.py on the Raspberry Pi
+
+Libraries
+-Pillow
