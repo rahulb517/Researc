@@ -1,0 +1,19 @@
+1. Start a MySQL server and create a new database.
+2. Configure IP address and port number (on both the sendData and getData files) so that the Arduino and computer can communicate with each other.
+3. Connect to database via its url (should be in the form mysql+pymysql://username:password@host:port/databasename).
+4. Run sendData.ino on Arduino.
+5. Run getData.py.
+6. Run dashboard.py to see data vizualizations.
+
+Libraries used:
+
+getData.py
+-sqlalchemy
+-PyMySQL
+
+dashboard.py
+-streamlit
+-pandas
+-plotly
+-sqlalchemy
+-PyMySQL
